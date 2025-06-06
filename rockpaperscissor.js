@@ -49,7 +49,7 @@ function playGame(playerChoice) {
     <img src="./images/${playerChoice}.png" class="move-icon alt = "${playerChoice}">
     <img src="images/${computerChoice}.png" class="move-icon alt="${computerChoice}">
     Computer`;
-    
+    updateScore();
 }
 
    
